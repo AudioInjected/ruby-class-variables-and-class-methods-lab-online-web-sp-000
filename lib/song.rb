@@ -1,4 +1,4 @@
-class Song
+class Song(name, artist, genre)
   @@count
   attr_accessor :name, :artist, :genre
   def initialized
